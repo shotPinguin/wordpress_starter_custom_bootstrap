@@ -1,0 +1,189 @@
+# Translation of Plugins - Disable Comments - Development (trunk) in French (France)
+# This file is distributed under the same license as the Plugins - Disable Comments - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-10-24 08:51:23+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: fr\n"
+"Project-Id-Version: Plugins - Disable Comments - Development (trunk)\n"
+
+#: includes/settings-page.php:49
+msgctxt "settings page title"
+msgid "Disable Comments"
+msgstr "Désactivation des commentaires"
+
+#: disable-comments.php:396
+msgctxt "settings menu title"
+msgid "Disable Comments"
+msgstr "Disable Comments"
+
+#: disable-comments.php:388
+msgid "Tools"
+msgstr "Outils"
+
+#: disable-comments.php:408 includes/tools-page.php:7
+#: includes/tools-page.php:103
+msgid "Delete Comments"
+msgstr "Supprimer les commentaires"
+
+#: includes/settings-page.php:68 includes/tools-page.php:95
+msgid "Custom post types:"
+msgstr "Types de publications personnalisés :"
+
+#: includes/tools-page.php:13 includes/tools-page.php:75
+msgid "No comments available for deletion."
+msgstr "Aucun commentaire à supprimer."
+
+#: includes/tools-page.php:38
+msgid "All comments have been deleted."
+msgstr "Tous les commentaires ont été supprimés."
+
+#: includes/tools-page.php:40 includes/tools-page.php:43
+msgid "Internal error occured. Please try again later."
+msgstr "Une erreur interne s’est produite. Veuillez réessayer ultérieurement."
+
+#: includes/tools-page.php:62
+msgid "All comments have been deleted for %ss."
+msgstr "Tous les commentaires ont été supprimés pour %ss."
+
+#: includes/tools-page.php:68
+msgid "Comment Deletion Complete"
+msgstr "Suppression des commentaires terminée"
+
+#: includes/tools-page.php:85
+msgid "Delete all comments in WordPress."
+msgstr "Supprimer tous les commentaires dans WordPress."
+
+#: includes/tools-page.php:86
+msgid "%s: This function and will affect your entire site. Use it only if you want to delete comments <em>everywhere</em>."
+msgstr "%s : Cette fonction affectera l’ensemble de votre site. Utilisez-la uniquement si vous voulez supprimer les commentaires <em>partout</em>."
+
+#: includes/tools-page.php:88
+msgid "For certain post types"
+msgstr "Pour certains types de publication "
+
+#: includes/tools-page.php:97
+msgid "%s: Deleting comments will remove existing comment entries in the database and cannot be reverted without a database backup."
+msgstr "%s : La suppression des commentaires supprimera les entrées de commentaires existantes dans la base de données et ne pourra être annulée sans une sauvegarde de la base de données."
+
+#: includes/tools-page.php:102
+msgid "Total Comments:"
+msgstr "Commentaires totaux :"
+
+#: disable-comments.php:244 disable-comments.php:324 disable-comments.php:330
+msgid "Comments are closed."
+msgstr "Les commentaires sont fermés."
+
+#: disable-comments.php:387
+msgid "Settings"
+msgstr "Réglages"
+
+#. Plugin Name of the plugin/theme
+msgid "Disable Comments"
+msgstr "Disable Comments"
+
+#: includes/settings-page.php:52
+msgid "<em>Disable Comments</em> is Network Activated. The settings below will affect <strong>all sites</strong> in this network."
+msgstr "<em>Disable Comments</em>est activé au niveau du réseau. Les modifications ci-dessous affecteront <strong>tous les sites</strong> du réseau."
+
+#: includes/settings-page.php:58 includes/tools-page.php:85
+msgid "Everywhere"
+msgstr "Partout"
+
+#: includes/settings-page.php:58
+msgid "Disable all comment-related controls and settings in WordPress."
+msgstr "Désactiver tous les réglages relatifs aux commentaires dans WordPress."
+
+#: includes/settings-page.php:59 includes/settings-page.php:80
+#: includes/settings-page.php:82 includes/settings-page.php:110
+#: includes/tools-page.php:86 includes/tools-page.php:97
+msgid "Warning"
+msgstr "Avertissement"
+
+#: includes/settings-page.php:70
+msgid "Disabling comments will also disable trackbacks and pingbacks. All comment-related fields will also be hidden from the edit/quick-edit screens of the affected posts. These settings cannot be overridden for individual posts."
+msgstr "Désactiver les commentaires entraine une désactivation des trackbacks et pings. Tous les champs relatifs aux commentaires seront affectés. Ces réglages ne pourront pas être choisi individuellement dans les articles. "
+
+#: includes/settings-page.php:75
+msgid "Other options"
+msgstr "Autres options"
+
+#: includes/settings-page.php:79
+msgid "Use persistent mode"
+msgstr "Utiliser le mode persistant"
+
+#. Description of the plugin/theme
+msgid "Allows administrators to globally disable comments on their site. Comments can be disabled according to post type."
+msgstr "Permet aux administrateurs de désactiver globalement les commentaires sur leur site. Les commentaires peuvent être désactivés selon le type de contenu."
+
+#. Author of the plugin/theme
+msgid "Samir Shah"
+msgstr "Samir Shah"
+
+#. Plugin URI of the plugin/theme
+msgid "https://wordpress.org/plugins/disable-comments/"
+msgstr "https://wordpress.org/plugins/disable-comments/"
+
+#. Author URI of the plugin/theme
+msgid "http://www.rayofsolaris.net/"
+msgstr "http://www.rayofsolaris.net/"
+
+#: includes/settings-page.php:89
+msgid "Save Changes"
+msgstr "Enregistrer les modifications"
+
+#: disable-comments.php:59
+msgid "Disable Comments requires WordPress version %s or greater."
+msgstr "Disable Comments nécessite la version %s de WordPress ou une version supérieure."
+
+#: disable-comments.php:291
+msgid "Note: The <em>Disable Comments</em> plugin is currently active, and comments are completely disabled on: %s. Many of the settings below will not be applicable for those post types."
+msgstr "Remarque : l’extension <em>Disable Comments</em> est actuellement activée et les commentaires sont complètement désactivés sur %s. Un grand nombre de ces réglages ne seront pas applicables pour ces types de contenu."
+
+#: disable-comments.php:291
+msgid ", "
+msgstr ", "
+
+#: disable-comments.php:316
+msgid "The <em>Disable Comments</em> plugin is active, but isn't configured to do anything yet. Visit the <a href=\"%s\">configuration page</a> to choose which post types to disable comments on."
+msgstr "L’extension <em>Disable Comments</em> est activée mais n’est pas encore configurée. Rendez-vous sur la <a href=\"%s\">page de configuration</a>  pour choisir les types de publication pour lesquels vous souhaitez désactiver les commentaires."
+
+#: includes/settings-page.php:43
+msgid "If a caching/performance plugin is active, please invalidate its cache to ensure that changes are reflected immediately."
+msgstr "Si vous utilisez une extension de cache, veuillez vider le cache afin de constater que les changements sont répercutés immédiatement."
+
+#: includes/settings-page.php:44
+msgid "Options updated. Changes to the Admin Menu and Admin Bar will not appear until you leave or reload this page."
+msgstr "Options mises à jour. Les modifications n’apparaitront pas dans l’admin tant que vous n’aurez pas quitté ou rechargé cette page."
+
+#: includes/settings-page.php:54
+msgid "It seems that a caching/performance plugin is active on this site. Please manually invalidate that plugin's cache after making any changes to the settings below."
+msgstr "Il semblerait qu’une extension de cache soit active sur votre site. Veuillez vider ce cache après toutes modifications dans les réglages ci-dessous."
+
+#: includes/settings-page.php:59
+msgid "%s: This option is global and will affect your entire site. Use it only if you want to disable comments <em>everywhere</em>. A complete description of what this option does is <a href=\"%s\" target=\"_blank\">available here</a>."
+msgstr "%s : Cette option affecte l’ensemble de votre site internet. Utilisez-la uniquement si vous souhaitez désactiver les commentaires <em>partout</em>. Une documentation complète des options de l’extension est <a href=\"%s\" target=\"_blank\">disponible ici (en)</a>."
+
+#: includes/settings-page.php:61
+msgid "On certain post types"
+msgstr "Sur certains types de publication "
+
+#: includes/settings-page.php:67 includes/tools-page.php:94
+msgid "Only the built-in post types appear above. If you want to disable comments on other custom post types on the entire network, you can supply a comma-separated list of post types below (use the slug that identifies the post type)."
+msgstr "Seuls les types d’article intégrés apparaissent au-dessus. Si vous souhaitez désactiver commentaires sur d&#39;autres types de contenu personnalisé sur l&#39;ensemble du réseau, vous pouvez fournir une liste séparée par des virgules de ces types de contenu ci-dessous (utiliser leurs identifiants)."
+
+#: includes/settings-page.php:80
+msgid "%s: <strong>This will make persistent changes to your database &mdash; comments will remain closed even if you later disable the plugin!</strong> You should not use it if you only want to disable comments temporarily. Please <a href=\"%s\" target=\"_blank\">read the FAQ</a> before selecting this option."
+msgstr "%s : <strong>Ceci effectuera des changements permanents à votre base de données. Les commentaires seront désactivés même si vous désactivez l’extension !</strong> Si vous souhaitez désactiver les commentaires de façon temporaire, vous ne devez PAS activer cette option. Voir la <a href=\"%s\" target=\"_blank\">FAQ (en)</a> avant de choisir cette option."
+
+#: includes/settings-page.php:82
+msgid "%s: Entering persistent mode on large multi-site networks requires a large number of database queries and can take a while. Use with caution!"
+msgstr "%s : Activer le mode persistent sur un réseau de sites nécessite de nombreuses requetes dans la base de données. Utilisez cette option avec prudence !"
+
+#: includes/settings-page.php:110
+msgid "%s: Selecting this option will make persistent changes to your database. Are you sure you want to enable it?"
+msgstr "%s : Si vous sélectionnez cette option, des modifications persistantes seront apportées à votre base de données. Confirmez-vous vouloir l’activer ?"

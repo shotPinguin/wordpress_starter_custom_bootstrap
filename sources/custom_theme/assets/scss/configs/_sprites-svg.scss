@@ -1,0 +1,5 @@
+$icons: (
+  sprite: (width: 240px, height: 120px, pngPath: '../img/sprite.png', svgPath: 'svg/sprite.view.svg'),
+    cabriolet: (width: 100px, height: 100px, backgroundX: 0 - 10px, backgroundY: 0 - 10px, backgroundX_rel: 0%, backgroundY_rel: 0%),
+    coupe: (width: 100px, height: 100px, backgroundX: -120 - 10px, backgroundY: 0 - 10px, backgroundX_rel: 100%, backgroundY_rel: 0%),
+);

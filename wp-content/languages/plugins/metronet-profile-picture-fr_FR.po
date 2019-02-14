@@ -1,0 +1,110 @@
+# Translation of Plugins - User Profile Picture - Stable (latest release) in French (France)
+# This file is distributed under the same license as the Plugins - User Profile Picture - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2019-01-11 13:17:42+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: fr\n"
+"Project-Id-Version: Plugins - User Profile Picture - Stable (latest release)\n"
+
+#: gutenberg/class-gutenberg.php:332
+msgid "Website"
+msgstr "Site web"
+
+#: gutenberg/class-gutenberg.php:328
+msgid "View all posts by"
+msgstr "Voir toutes les publications de"
+
+#: gutenberg/class-gutenberg.php:304 gutenberg/class-gutenberg.php:360
+msgid "View Website"
+msgstr "Voir le site web"
+
+#: gutenberg/class-gutenberg.php:299 gutenberg/class-gutenberg.php:355
+msgid "View Posts"
+msgstr "Voir les publications"
+
+#: gutenberg/class-gutenberg.php:207
+msgid "Latest Posts"
+msgstr "Publications récentes"
+
+#: gutenberg/class-gutenberg.php:199 gutenberg/class-gutenberg.php:203
+msgid "Author Details"
+msgstr "Détails de l’auteur"
+
+#: metronet-profile-picture.php:99 metronet-profile-picture.php:144
+#: metronet-profile-picture.php:159 metronet-profile-picture.php:189
+#: metronet-profile-picture.php:479 metronet-profile-picture.php:485
+msgid "Click to Edit"
+msgstr "Cliquer pour modifier"
+
+#: metronet-profile-picture.php:754
+msgid "User not owner."
+msgstr "Utilisateur non propriétaire."
+
+#: metronet-profile-picture.php:746
+msgid "You must be able to upload files."
+msgstr "Vous devez pouvoir téléverser des fichiers."
+
+#: metronet-profile-picture.php:544
+msgid "Remove Profile Image"
+msgstr "Retirer l’image de profil"
+
+#. Author URI of the plugin
+msgid "https://www.mediaron.com"
+msgstr "https://www.mediaron.com"
+
+#. Author of the plugin
+msgid "Ronald Huereca"
+msgstr "Ronald Huereca"
+
+#: metronet-profile-picture.php:818 metronet-profile-picture.php:852
+msgid "Profile picture not found."
+msgstr "Image de profil non trouvée"
+
+#: metronet-profile-picture.php:750 metronet-profile-picture.php:783
+#: metronet-profile-picture.php:809 metronet-profile-picture.php:845
+msgid "User not found."
+msgstr "Utilisateur introuvable."
+
+#. Description of the plugin
+msgid "Use the native WP uploader on your user profile page."
+msgstr "Utiliser l’envoi natif de WP sur vos page de profil utilisateur"
+
+#. Plugin URI of the plugin
+msgid "http://wordpress.org/extend/plugins/metronet-profile-picture/"
+msgstr "http://wordpress.org/extend/plugins/metronet-profile-picture/"
+
+#. Plugin Name of the plugin
+msgid "User Profile Picture"
+msgstr "Image de profil utilisateur"
+
+#: metronet-profile-picture.php:543
+msgid "Set Profile Image"
+msgstr "Définir l’image de profil"
+
+#: metronet-profile-picture.php:518
+msgid "Override Avatar?"
+msgstr "Passer outre l’avatar ?"
+
+#: metronet-profile-picture.php:466
+msgid "Profile Image"
+msgstr "Image de profil"
+
+#: metronet-profile-picture.php:399 metronet-profile-picture.php:545
+msgid "Crop Thumbnail"
+msgstr "Rogner la miniature"
+
+#: metronet-profile-picture.php:97 metronet-profile-picture.php:142
+#: metronet-profile-picture.php:158 metronet-profile-picture.php:188
+#: metronet-profile-picture.php:477 metronet-profile-picture.php:483
+msgid "Upload or Change Profile Picture"
+msgstr "Envoyer ou changer l’image de profil"
+
+#: metronet-profile-picture.php:100 metronet-profile-picture.php:145
+#: metronet-profile-picture.php:493
+msgid "Remove profile image"
+msgstr "Retirer l’image de profil"

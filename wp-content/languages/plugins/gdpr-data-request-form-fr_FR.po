@@ -1,0 +1,108 @@
+# Translation of Plugins - GDPR Data Request Form - Stable (latest release) in French (France)
+# This file is distributed under the same license as the Plugins - GDPR Data Request Form - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-05-29 20:32:19+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: fr\n"
+"Project-Id-Version: Plugins - GDPR Data Request Form - Stable (latest release)\n"
+
+#: public/shortcode.php:75 public/widget.php:101
+msgid "This plugin requires WordPress 4.9.6."
+msgstr "Cette extension nécessite WordPress 4.9.6 au minimum pour fonctionner."
+
+#: includes/data-request.php:36
+msgid "Security check failed, invalid human verification field."
+msgstr "La vérification de sécurité a échouée, le champ de vérification était erroné."
+
+#: public/shortcode.php:61 public/widget.php:87
+msgid "Human verification (required):"
+msgstr "Vérification antispam (obligatoire) :"
+
+#. Author of the plugin/theme
+msgid "Jean-Baptiste Audras, Directeur technique chez Whodunit"
+msgstr "Jean-Baptiste Audras, Directeur technique chez Whodunit"
+
+#. Author URI of the plugin/theme
+msgid "https://jeanbaptisteaudras.com"
+msgstr "https://jeanbaptisteaudras.com"
+
+#. Description of the plugin/theme
+msgid "Integrates WordPress Core 4.9.6 GDPR tools to allow users/visitors to request Personal Data export and erasure with front-end forms"
+msgstr "Intégration des outils RGPD du cœur WordPress 4.9.6 pour permettre à vos utilisateurs et visiteurs de demander un export ou une suppression de leurs données personnelles à l’aide d’un formulaire."
+
+#. Plugin URI of the plugin/theme
+msgid "https://jeanbaptisteaudras.com/gdpr-data-request-form"
+msgstr "https://jeanbaptisteaudras.com/gdpr-data-request-form"
+
+#. Plugin Name of the plugin/theme
+msgid "GDPR Data Request Form"
+msgstr "GDPR Data Request Form"
+
+#: public/widget.php:117
+msgid "Optional widget description:"
+msgstr "Description facultative du widget :"
+
+#: public/widget.php:113
+msgid "Optional widget title:"
+msgstr "Titre facultatif du widget :"
+
+#: public/public.php:25
+msgid "Some errors occurred:"
+msgstr "Des erreurs sont survenues :"
+
+#: public/public.php:24
+msgid "Your enquiry have been submitted. Check your email to validate your data request."
+msgstr "Votre demande a bien été prise en compte. Consultez votre boîte de messagerie afin de la valider par e-mail."
+
+#: public/hook.php:53 public/shortcode.php:68 public/widget.php:94
+msgid "Send request"
+msgstr "Envoyer la demande"
+
+#: public/hook.php:48
+msgid "Human Verification (required) : 3 + 5 = ?"
+msgstr "Vérification humaine (obligatoire) : 3 + 5 = ?"
+
+#: public/hook.php:42 public/shortcode.php:54 public/widget.php:80
+msgid "Your email address (required)"
+msgstr "Votre adresse de messagerie (obligatoire)"
+
+#: public/hook.php:38 public/shortcode.php:48 public/widget.php:74
+msgid "Remove Personal Data"
+msgstr "Supprimer mes données personnelles"
+
+#: public/hook.php:35 public/shortcode.php:43 public/widget.php:69
+msgid "Export Personal Data"
+msgstr "Exporter mes données personnelles"
+
+#: public/hook.php:31 public/shortcode.php:38 public/widget.php:64
+msgid "Select your request:"
+msgstr "Sélectionner un type de demande :"
+
+#: includes/data-request.php:50
+msgid "Unable to initiate confirmation request. Please contact the administrator."
+msgstr "Impossible d’initialiser la demande de confirmation. Veuillez contacter l’administrateur du site."
+
+#: includes/data-request.php:43
+msgid "All fields are required."
+msgstr "Tous les champs sont obligatoires."
+
+#: includes/data-request.php:39
+msgid "Request type invalid, please refresh this page and try to submit the form again."
+msgstr "Type de demande non valide. Veuillez réactualiser cette page et remplir le formulaire à nouveau."
+
+#: includes/data-request.php:33
+msgid "This is not a valid email address."
+msgstr "L’adresse de messagerie n’est pas valide."
+
+#: includes/data-request.php:30
+msgid "Security check failed, please refresh this page and try to submit the form again."
+msgstr "La vérification de sécurité a échouée. Veuillez réactualiser cette page et remplir le formulaire à nouveau."
+
+#: includes/data-request.php:24
+msgid "The request can’t be processed on this website. This feature requires WordPress 4.9.6 at least."
+msgstr "La requête ne peut pas être effectuée. Cette fonctionnalité nécessite au moins WordPress en version 4.9.6."

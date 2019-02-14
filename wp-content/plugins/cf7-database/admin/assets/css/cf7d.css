@@ -1,0 +1,127 @@
+#cf7d-list-field li {
+  border: 1px solid #ddd;
+  cursor: move;
+  height: 35px;
+  line-height: 35px;
+  padding: 0 10px;
+  position: relative;
+}
+#cf7d-list-field li .label {
+  width: 120px;
+  overflow: hidden;
+  display: block;
+  float: left;
+  font-style: italic;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+#cf7d-list-field li > input {
+    padding: 2px 4px;
+    box-shadow: none;
+    border-radius: 3px;
+    border-color: #32EDAB;
+}
+#cf7d-list-field li span.dashicons {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    cursor: pointer;
+}
+#cf7d-list-field li.sortable-placeholder {
+    border-style: dashed;
+}
+#cf7d-modal-footer, .cf7d-modal-footer {
+  background: #fff none repeat scroll 0 0;
+  border-top: 1px solid #ccd1d9;
+  bottom: 0;
+  box-sizing: border-box;
+  height: 60px;
+  left: 0;
+  padding: 15px;
+  position: absolute;
+  text-align: right;
+  width: 100%;
+  z-index: 2;
+}
+#cf7d-modal-footer .button {
+    padding: 0 30px;
+}
+#cf7d-list-field.ui-sortable li.hide {
+  display: block;
+}
+#cf7d-modal-form {
+  padding-bottom: 65px;
+}
+
+/*
+ * Mobile skin
+ */
+.cf7d-admin-table.horizontal thead th.manage-column, .horizontal tfoot {
+    display: none;
+}
+.cf7d-admin-table.horizontal tbody tr td {
+  display: block;
+  min-height: 20px;
+  position: relative;
+  width: 100%;
+}
+/*.cf7d-admin-table.horizontal tbody tr td:hover {
+  background-color: #bfbd9d;
+}*/
+.cf7d-admin-table.horizontal tbody tr td::before {
+    content: attr(data-head);
+    display: block;
+    float: left;
+    font-weight: bold;
+    overflow-x: auto;
+    padding: 0 10px 0 0;
+    width: 100px;
+}
+.cf7d-admin-table > tbody > :nth-child(2n+1) {
+  background-color: #f6f6f6;
+}
+.cf7d-switch-theme-horizontal {
+  transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+}
+.cf7d-switch-theme::before {
+    font-size: 28px !important;
+}
+.cf7d-switch-theme {
+    margin: 0 10px 0 0;
+    cursor: pointer;
+}
+.cf7d-switch-theme.active::before {
+    color: #ff0000;
+}
+
+
+/*
+ * Edit value
+ */
+#cf7d-list-field-for-edit li span.label {
+  display: block;
+  float: left;
+  font-style: italic;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 120px;
+}
+
+/*
+ * Export
+ */
+#cf7d-export {
+  float: none;
+}
+
+#cf7d-list-field-for-edit {
+  padding-bottom: 100px;
+}
+
+#cf7d_setting_form {
+  display: inline-block;
+  margin: 0;
+}

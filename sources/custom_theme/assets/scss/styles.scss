@@ -1,0 +1,50 @@
+@import "reset";
+@import "init";
+
+// Grids
+@import "grids/responsive";
+//@import "grids/flexbox";
+
+// Components
+@import "components/forms";
+@import "components/buttons";
+@import "components/navbar";
+@import "components/content-bloc";
+
+// Layouts
+@import "layouts/global";
+@import "layouts/header";
+@import "layouts/footer";
+@import "layouts/sidebar";
+@import "layouts/global";
+
+
+// Contents
+@import "partials/breadcrumb";
+@import "partials/homepage";
+@import "partials/login-form";
+@import "partials/listing-telechargement";
+@import "partials/_products";
+@import "partials/_sitemap";
+@import "partials/_selection";
+@import "partials/_modal";
+@import "partials/_search";
+@import "partials/_contact";
+@import "partials/_en-resumer";
+@import "partials/contenu_avance";
+
+
+// Responsives
+@import "responsives/responsives";
+
+// Print
+@import "print";
+
+// Default scss WordPress
+@import "vendor/default-wp";
+@import "vendor/contact-form";
+
+
+// hack css browser
+@import "hack/all";
+ 

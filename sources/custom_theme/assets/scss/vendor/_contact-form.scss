@@ -1,0 +1,482 @@
+div.wpcf7 {
+  margin: 0;
+}
+
+div.wpcf7 .screen-reader-response {
+  position: absolute;
+  overflow: hidden;
+  clip: rect(1px, 1px, 1px, 1px);
+  height: 1px;
+  width: 1px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+
+div.wpcf7-mail-sent-ok {
+  border: 2px solid #398f14;
+}
+
+div.wpcf7-mail-sent-ng,
+div.wpcf7-aborted {
+  border: 2px solid #ff0000;
+}
+
+div.wpcf7-spam-blocked {
+  border: 2px solid #ffa500;
+}
+
+div.wpcf7-validation-errors,
+div.wpcf7-acceptance-missing {
+  border: 2px solid #f7e700;
+}
+
+.wpcf7-form-control-wrap {
+  position: relative;
+}
+
+span.wpcf7-not-valid-tip {
+  color: #f00;
+  font-size: 1em;
+  font-weight: normal;
+  display: block;
+}
+
+.use-floating-validation-tip span.wpcf7-not-valid-tip {
+  position: absolute;
+  top: 20%;
+  left: 20%;
+  z-index: 100;
+  border: 1px solid #ff0000;
+  background: #fff;
+  padding: .2em .8em;
+}
+
+span.wpcf7-list-item {
+  display: inline-block;
+  margin: 0 0 0 1em;
+}
+
+span.wpcf7-list-item-label::before,
+span.wpcf7-list-item-label::after {
+  content: " ";
+}
+
+.wpcf7-display-none {
+  display: none;
+}
+
+div.wpcf7 .ajax-loader {
+  visibility: hidden;
+  display: inline-block;
+  background-image: url('../images/ajax-loader.gif');
+  width: 16px;
+  height: 16px;
+  border: none;
+  padding: 0;
+  margin: 0 0 0 4px;
+  vertical-align: middle;
+  background-size: contain;
+  position: absolute;
+  bottom: 5px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+div.wpcf7 .ajax-loader.is-active {
+  visibility: visible;
+}
+
+div.wpcf7 div.ajax-error {
+  display: none;
+}
+
+div.wpcf7 .placeheld {
+  color: #888;
+}
+
+div.wpcf7 .wpcf7-recaptcha iframe {
+  margin-bottom: 0;
+}
+
+div.wpcf7 input[type="file"] {
+  cursor: pointer;
+}
+
+div.wpcf7 input[type="file"]:disabled {
+  cursor: default;
+}
+
+.wpcf7
+{
+  box-shadow: 0 0 50px 10px rgba(35, 35, 35, 0.2);
+  background-color: white;
+  padding: 25px 50px;
+
+  .wpcf7-not-valid-tip
+  {
+    text-align: left;
+    padding: 0 10px;
+  }
+
+  div.wpcf7-response-output
+  {
+    border: none;
+    color: #ff0000;
+    margin: 2em 0.5em 1em;
+    padding: 0.2em 1em;
+  }
+
+  div.wpcf7-mail-sent-ok
+  {
+    color: #398f14;
+  }
+
+  p
+  {
+    margin: 0;
+  }
+  input[type="submit"], .search-submit
+  {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 15px 35px;
+    border-radius: 50px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    background-color: $c-blue;
+    transition: background-color .3s ease;
+    border: none;
+    outline: none;
+
+    &:hover
+    {
+      background-color: $c-blue-dark;
+    }
+  }
+
+  input[type="text"], input[type="email"], input[type="tel"], textarea, input[type="password"], select
+  {
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 1px solid $c-gray;
+    color: $c-black-light;
+    outline: none;
+    margin: 10px 10px;
+  }
+  textarea
+  {
+    width: calc(100% - 20px);
+  }
+  .check-policy
+  {
+    width: 100%;
+    text-align: left;
+    display: block;
+    margin-bottom: 10px;
+    color: #737373;
+    font-style: italic;
+    font-size: 14px;
+  }
+}
+
+.wrapper__contact
+{
+  background-position: top;
+  background-size: 100% 520px;
+  background-repeat: no-repeat;
+
+
+  .bloc_content_1_colonne
+  {
+    color:white;
+  }
+
+  .wpcf7
+  {
+    width: 100%;
+    max-width: 820px;
+    margin: 25px auto;
+
+    .wpcf7-form-control-wrap
+    {
+      width: 50%;
+
+      input, select
+      {
+        width: calc(100% - 20px);
+      }
+    }
+
+    .your-message, .check-policy
+    {
+      width: 100%;
+
+      input[type="checkbox"]
+      {
+        width: auto;
+      }
+    }
+
+    p
+    {
+      display: flex;
+    }
+
+    .wpcf7-submit
+    {
+      display: block;
+      margin-right: auto;
+      margin-left: auto;
+    }
+  }
+}
+
+.conditions
+{
+  color: #737373;
+  text-align: left;
+}
+
+.search-submit
+{
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 15px 35px;
+  border-radius: 50px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  display: inline-block;
+  color: white;
+  background-color: $c-blue;
+  transition: background-color .3s ease;
+  border: none;
+  outline: none;
+
+  &:hover
+  {
+    background-color: $c-blue-dark;
+  }
+}
+
+.form-group
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 0;
+
+  input
+  {
+    max-width: 300px;
+    margin-bottom: 25px;
+  }
+}
+
+.container-form
+{
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 0 75px 0;
+
+  .modal-title
+  {
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+  }
+
+  .form-account
+  {
+    width: 49%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 35px 60px;
+
+    form
+    {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+      padding-top: 25px;
+      min-height: 288px;
+      //height: 100%;
+
+      input:not(.submit_button)
+      {
+        width: 100%;
+      }
+
+      .submit_button
+      {
+        margin: 25px 0;
+      }
+    }
+
+    .registraion-form
+    {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      min-height: 288px;
+
+      & > div:first-child
+      {
+        width: 100%;
+      }
+    }
+  }
+
+  .form-left
+  {
+
+  }
+  .form-right
+  {
+    .help-block
+    {
+      text-align: center;
+    }
+  }
+
+  .form-create-account
+  {
+    width: 100%;
+
+    form
+    {
+      input:not(.submit_button), select
+      {
+        width: 48%;
+      }
+
+      .submit_button
+      {
+        margin: 35px auto 10px auto;
+        display: block;
+      }
+
+      .policy
+      {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        padding: 15px 10px;
+
+        .checkbox_policy
+        {
+          width: auto;
+          margin: 0;
+          margin-right: 10px;
+        }
+        .help-block
+        {
+          margin: 0;
+          font-weight: lighter;
+        }
+      }
+    }
+  }
+
+  .wrapper_input
+  {
+    display: flex;
+  }
+
+  .input-help
+  {
+    width: 49.8%;
+    display: inline-block;
+    padding: 0 10px;
+
+    input
+    {
+      width: 100%!important;
+      margin: 10px 0;
+    }
+  }
+
+  .help-block
+  {
+    font-style: italic;
+    font-size: 14px;
+  }
+}
+a.lost
+{
+  font-size: 14px;
+  color: #737373;
+  font-style: italic;
+  align-self: flex-start;
+  padding: 15px 0;
+}
+.container-button-logout
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 35px 0 15px 0;
+
+  .button--blue
+  {
+    display: block;
+    margin: 0 10px;
+  }
+
+  .submit_button
+  {
+    margin: 0 10px!important;
+  }
+}
+
+.result-message
+{
+  display: none;
+}
+.status
+{
+  text-align: center;
+}
+
+.container-form-log
+{
+  display: flex;
+  justify-content: center;
+  padding: 25px 0 75px 0;
+
+  .form-account-log
+  {
+    width: 100%;
+    max-width: 600px;
+
+    form
+    {
+      display: flex;
+      flex-direction: column;
+
+    }
+  }
+}
+
+.policy .help-block, .check-policy .wpcf7-list-item-label
+{
+  &:hover
+  {
+    cursor: pointer;
+    text-decoration: underline;
+  }
+}
+
+select
+{
+  background-color: white!important;
+}

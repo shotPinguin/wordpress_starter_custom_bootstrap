@@ -1,0 +1,390 @@
+# Copyright (C) 2019 User Profile Picture
+# This file is distributed under the same license as the User Profile Picture package.
+msgid ""
+msgstr ""
+"Project-Id-Version: User Profile Picture\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/plugins/metronet-profile-picture/\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2019-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Ronald Huerca <ronald@mediaron.com>\n"
+"Language-Team: Ronald Huereca <ronald@mediaron.com\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: src/gutenberg/class-gutenberg.php:199, src/gutenberg/class-gutenberg.php:203
+msgid "Author Details"
+msgstr ""
+
+#: src/gutenberg/class-gutenberg.php:207
+msgid "Latest Posts"
+msgstr ""
+
+#: src/gutenberg/class-gutenberg.php:299, src/gutenberg/class-gutenberg.php:355, src/js/gutenberg/main.js:211, src/js/gutenberg/profile-legacy.js:438, src/js/gutenberg/profile.js:1059, src/js/gutenberg/profile.js:1232
+msgid "View Posts"
+msgstr ""
+
+#: src/gutenberg/class-gutenberg.php:304, src/gutenberg/class-gutenberg.php:360, src/js/gutenberg/profile.js:1077, src/js/gutenberg/profile.js:1252
+msgid "View Website"
+msgstr ""
+
+#: src/gutenberg/class-gutenberg.php:328, src/js/gutenberg/profile.js:1144
+msgid "View all posts by"
+msgstr ""
+
+#: src/gutenberg/class-gutenberg.php:332, src/js/gutenberg/profile.js:629, src/js/gutenberg/profile.js:1153
+msgid "Website"
+msgstr ""
+
+#: src/js/gutenberg/main.js:115
+msgid "User Profile Legacy"
+msgstr ""
+
+#: src/js/gutenberg/main.js:235
+msgid "User Profile"
+msgstr ""
+
+#: src/js/gutenberg/profile-legacy.js:234, src/js/gutenberg/profile.js:544
+msgid "Square"
+msgstr ""
+
+#: src/js/gutenberg/profile-legacy.js:235, src/js/gutenberg/profile.js:545
+msgid "Round"
+msgstr ""
+
+#: src/js/gutenberg/profile-legacy.js:242, src/js/gutenberg/profile.js:590, src/js/gutenberg/profile.js:1531
+msgid "Loading..."
+msgstr ""
+
+#: src/js/gutenberg/profile-legacy.js:250, src/js/gutenberg/profile.js:598, src/js/gutenberg/profile.js:670
+msgid "User Profile Settings"
+msgstr ""
+
+#: src/js/gutenberg/profile-legacy.js:252, src/js/gutenberg/profile.js:600
+msgid "Select a user"
+msgstr ""
+
+#: src/js/gutenberg/profile-legacy.js:258, src/js/gutenberg/profile.js:838
+msgid "Font Size"
+msgstr ""
+
+#: src/js/gutenberg/profile-legacy.js:266, src/js/gutenberg/profile.js:621
+msgid "Avatar Shape"
+msgstr ""
+
+#: src/js/gutenberg/profile-legacy.js:267, src/js/gutenberg/profile.js:622
+msgid "Choose between a round or square avatar shape."
+msgstr ""
+
+#: src/js/gutenberg/profile-legacy.js:273, src/js/gutenberg/profile-legacy.js:278, src/js/gutenberg/profile.js:683, src/js/gutenberg/profile.js:688
+msgid "Background Color"
+msgstr ""
+
+#: src/js/gutenberg/profile-legacy.js:283, src/js/gutenberg/profile-legacy.js:288, src/js/gutenberg/profile.js:693, src/js/gutenberg/profile.js:698
+msgid "Text Color"
+msgstr ""
+
+#: src/js/gutenberg/profile-legacy.js:293, src/js/gutenberg/profile.js:786
+msgid "View Posts Background Color"
+msgstr ""
+
+#: src/js/gutenberg/profile-legacy.js:298, src/js/gutenberg/profile.js:791
+msgid "View Posts Background"
+msgstr ""
+
+#: src/js/gutenberg/profile-legacy.js:303, src/js/gutenberg/profile-legacy.js:308, src/js/gutenberg/profile.js:796, src/js/gutenberg/profile.js:801
+msgid "View Posts Text Color"
+msgstr ""
+
+#: src/js/gutenberg/profile-legacy.js:314, src/js/gutenberg/profile.js:635
+msgid "Show Name"
+msgstr ""
+
+#: src/js/gutenberg/profile-legacy.js:319, src/js/gutenberg/profile.js:640
+msgid "Show Title"
+msgstr ""
+
+#: src/js/gutenberg/profile-legacy.js:324, src/js/gutenberg/profile.js:645
+msgid "Show Description"
+msgstr ""
+
+#: src/js/gutenberg/profile-legacy.js:329, src/js/gutenberg/profile.js:652
+msgid "Show View Posts"
+msgstr ""
+
+#: src/js/gutenberg/profile-legacy.js:389, src/js/gutenberg/profile.js:1007, src/js/gutenberg/profile.js:1095, src/js/gutenberg/profile.js:1172, src/js/gutenberg/profile.js:1499
+msgid "Add name"
+msgstr ""
+
+#: src/js/gutenberg/profile-legacy.js:414, src/js/gutenberg/profile.js:1033, src/js/gutenberg/profile.js:1131, src/js/gutenberg/profile.js:1208, src/js/gutenberg/profile.js:1518
+msgid "Add profile text..."
+msgstr ""
+
+#: src/js/gutenberg/profile.js:42
+msgid "Regular"
+msgstr ""
+
+#: src/js/gutenberg/profile.js:43
+msgid "Profile"
+msgstr ""
+
+#: src/js/gutenberg/profile.js:44
+msgid "Tabbed"
+msgstr ""
+
+#: src/js/gutenberg/profile.js:45
+msgid "Compact"
+msgstr ""
+
+#: src/js/gutenberg/profile.js:550
+msgid "Brand Colors"
+msgstr ""
+
+#: src/js/gutenberg/profile.js:551
+msgid "Custom"
+msgstr ""
+
+#: src/js/gutenberg/profile.js:556
+msgid "None"
+msgstr ""
+
+#: src/js/gutenberg/profile.js:557
+msgid "White"
+msgstr ""
+
+#: src/js/gutenberg/profile.js:558
+msgid "Light"
+msgstr ""
+
+#: src/js/gutenberg/profile.js:559
+msgid "Black"
+msgstr ""
+
+#: src/js/gutenberg/profile.js:560
+msgid "Magenta"
+msgstr ""
+
+#: src/js/gutenberg/profile.js:561
+msgid "Blue"
+msgstr ""
+
+#: src/js/gutenberg/profile.js:562
+msgid "Green"
+msgstr ""
+
+#: src/js/gutenberg/profile.js:567
+msgid "Left"
+msgstr ""
+
+#: src/js/gutenberg/profile.js:568
+msgid "Center"
+msgstr ""
+
+#: src/js/gutenberg/profile.js:569
+msgid "Right"
+msgstr ""
+
+#: src/js/gutenberg/profile.js:606, src/js/gutenberg/profile.js:672
+msgid "Select a theme"
+msgstr ""
+
+#: src/js/gutenberg/profile.js:614
+msgid "Select an alignment"
+msgstr ""
+
+#: src/js/gutenberg/profile.js:657
+msgid "Show Website"
+msgstr ""
+
+#: src/js/gutenberg/profile.js:664
+msgid "Show Social Media"
+msgstr ""
+
+#: src/js/gutenberg/profile.js:681
+msgid "Colors"
+msgstr ""
+
+#: src/js/gutenberg/profile.js:704, src/js/gutenberg/profile.js:709
+msgid "Link Color"
+msgstr ""
+
+#: src/js/gutenberg/profile.js:717
+msgid "Profile Tab Color"
+msgstr ""
+
+#: src/js/gutenberg/profile.js:722, src/js/gutenberg/profile.js:732, src/js/gutenberg/profile.js:742, src/js/gutenberg/profile.js:752, src/js/gutenberg/profile.js:762, src/js/gutenberg/profile.js:771
+msgid "Color"
+msgstr ""
+
+#: src/js/gutenberg/profile.js:727
+msgid "Profile Tab Color Text"
+msgstr ""
+
+#: src/js/gutenberg/profile.js:737
+msgid "Profile Posts Color"
+msgstr ""
+
+#: src/js/gutenberg/profile.js:747
+msgid "Profile Post Color Text"
+msgstr ""
+
+#: src/js/gutenberg/profile.js:757
+msgid "Profile Headline Color"
+msgstr ""
+
+#: src/js/gutenberg/profile.js:766
+msgid "Profile Headline Color Text"
+msgstr ""
+
+#: src/js/gutenberg/profile.js:776
+msgid "Select a Post Theme"
+msgstr ""
+
+#: src/js/gutenberg/profile.js:806
+msgid "Website Background Color"
+msgstr ""
+
+#: src/js/gutenberg/profile.js:811
+msgid "View Website Background"
+msgstr ""
+
+#: src/js/gutenberg/profile.js:816, src/js/gutenberg/profile.js:821
+msgid "View Website Text Color"
+msgstr ""
+
+#: src/js/gutenberg/profile.js:828
+msgid "Spacing and Font Settings"
+msgstr ""
+
+#: src/js/gutenberg/profile.js:830
+msgid "Header Font Size"
+msgstr ""
+
+#: src/js/gutenberg/profile.js:847
+msgid "Button Size"
+msgstr ""
+
+#: src/js/gutenberg/profile.js:856
+msgid "Padding"
+msgstr ""
+
+#: src/js/gutenberg/profile.js:864
+msgid "Border"
+msgstr ""
+
+#: src/js/gutenberg/profile.js:872
+msgid "Border Rounded"
+msgstr ""
+
+#: src/js/gutenberg/profile.js:880, src/js/gutenberg/profile.js:885
+msgid "Border Color"
+msgstr ""
+
+#: src/js/gutenberg/profile.js:889
+msgid "Social Media Settings"
+msgstr ""
+
+#: src/js/gutenberg/profile.js:891
+msgid "Social Media Colors"
+msgstr ""
+
+#: src/js/gutenberg/profile.js:898, src/js/gutenberg/profile.js:903
+msgid "Social Media Color"
+msgstr ""
+
+#: src/js/gutenberg/profile.js:909
+msgid "Facebook"
+msgstr ""
+
+#: src/js/gutenberg/profile.js:914
+msgid "Twitter"
+msgstr ""
+
+#: src/js/gutenberg/profile.js:919
+msgid "Instagram"
+msgstr ""
+
+#: src/js/gutenberg/profile.js:924
+msgid "LinkedIn"
+msgstr ""
+
+#: src/js/gutenberg/profile.js:929
+msgid "YouTube"
+msgstr ""
+
+#: src/js/gutenberg/profile.js:934
+msgid "GitHub"
+msgstr ""
+
+#: src/js/gutenberg/profile.js:939
+msgid "Pinterest"
+msgstr ""
+
+#: src/js/gutenberg/profile.js:944
+msgid "WordPress"
+msgstr ""
+
+#: src/js/gutenberg/profile.js:1346, src/js/gutenberg/profile.js:1362
+msgid "Add tab name."
+msgstr ""
+
+#: src/js/gutenberg/profile.js:1477
+msgid "Add profile description..."
+msgstr ""
+
+#: src/js/gutenberg/profile.js:1490
+msgid "Add profile title..."
+msgstr ""
+
+#: src/metronet-profile-picture.php:97, src/metronet-profile-picture.php:142, src/metronet-profile-picture.php:158, src/metronet-profile-picture.php:188, src/metronet-profile-picture.php:477, src/metronet-profile-picture.php:483
+msgid "Upload or Change Profile Picture"
+msgstr ""
+
+#: src/metronet-profile-picture.php:99, src/metronet-profile-picture.php:144, src/metronet-profile-picture.php:159, src/metronet-profile-picture.php:189, src/metronet-profile-picture.php:479, src/metronet-profile-picture.php:485
+msgid "Click to Edit"
+msgstr ""
+
+#: src/metronet-profile-picture.php:100, src/metronet-profile-picture.php:100, src/metronet-profile-picture.php:145, src/metronet-profile-picture.php:145, src/metronet-profile-picture.php:493, src/metronet-profile-picture.php:493
+msgid "Remove profile image"
+msgstr ""
+
+#: src/metronet-profile-picture.php:399, src/metronet-profile-picture.php:545
+msgid "Crop Thumbnail"
+msgstr ""
+
+#: src/metronet-profile-picture.php:466
+msgid "Profile Image"
+msgstr ""
+
+#: src/metronet-profile-picture.php:518
+msgid "Override Avatar?"
+msgstr ""
+
+#: src/metronet-profile-picture.php:543
+msgid "Set Profile Image"
+msgstr ""
+
+#: src/metronet-profile-picture.php:544
+msgid "Remove Profile Image"
+msgstr ""
+
+#: src/metronet-profile-picture.php:746
+msgid "You must be able to upload files."
+msgstr ""
+
+#: src/metronet-profile-picture.php:750, src/metronet-profile-picture.php:783, src/metronet-profile-picture.php:809, src/metronet-profile-picture.php:845
+msgid "User not found."
+msgstr ""
+
+#: src/metronet-profile-picture.php:754
+msgid "User not owner."
+msgstr ""
+
+#: src/metronet-profile-picture.php:818, src/metronet-profile-picture.php:852
+msgid "Profile picture not found."
+msgstr ""

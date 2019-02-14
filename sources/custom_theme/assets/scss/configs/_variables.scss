@@ -1,0 +1,128 @@
+/************************************
+ * Override bootstrap variable
+ */
+
+$grid-gutter-width: 30px;
+
+// Small screen / tablet
+$container-tablet: (750px + $grid-gutter-width);
+//** For `$screen-sm-min` and up.
+$container-sm: $container-tablet !default;
+
+// Medium screen / desktop
+$container-desktop: (970px + $grid-gutter-width);
+//** For `$screen-md-min` and up.
+$container-md: $container-desktop;
+
+// Large screen / wide desktop
+$container-large-desktop: (1058px + $grid-gutter-width);
+//** For `$screen-lg-min` and up.
+$container-lg: $container-large-desktop;
+
+/************************************
+ * Grids
+ */
+
+$g-min-width: 320px;
+$g-max-width: 1280px;
+
+$g-gutter: 10px;
+
+/************************************
+ * Breakpoints
+ */
+
+$bp-xxs: 320px; // Mobile
+$bp-xs: 480px; // Mobile Landscape
+$bp-s: 768px; // Tablet
+$bp-m: 980px;
+$bp-l: 1024px; // Tablet Landscape
+$bp-xl: 1280px;
+$bp-xxl: 1920px;
+
+/************************************
+ * Susy
+ */
+
+$susy: (
+        container: $g-max-width,
+        columns: 12,
+        gutters: .25,
+        gutter-position: after
+);
+
+/************************************
+ * Fonts
+ */
+
+$f-main: 'Lato', sans-serif;
+$f-second: 'Lato', sans-serif;
+$f-third: 'Lato', sans-serif;
+
+/************************************
+ * Font Family
+ */
+
+$roboto: 'Roboto', sans-serif;
+$robotoSlab: 'Roboto Slab', serif;
+$robotoCondensed: 'Roboto Condensed', sans-serif;
+$openSans: "Open Sans", sans-serif;
+
+$f-bod_light: 'board_of_directorslight';
+$f-bod_bold: 'board_of_directors_rgbold';
+$f-bod_regular: 'board_of_directors_rgregular';
+//$f-bod_extra_light: 'board_of_directorsextralight';
+$f-textanarrow-black: 'textanarrow-black-webfont';
+
+$lato: 'Lato', sans-serif;
+/************************************
+ * Font Sizes
+ */
+
+$fs-main: 14px;
+
+/* Hx font-size */
+$fs-h1: 35px;
+$fs-h2: 25px;
+$fs-h3: 20px;
+$fs-h4: 18px;
+$fs-h5: 14px;
+$fs-h6: 14px;
+
+/************************************
+ * COLORS
+ */
+
+$c-black: #000000;
+$c-black-light: #353535;
+$c-white: #ffffff;
+$c-cloud: #f3f3f3;
+$c-main-color: #38aa32;
+$c-black-blue: #2d2e33;
+$c-black-blue-2: #454546;
+$c-gray: #9a9a9a;
+$c-blue: #2a98cc;
+$c-blue-dark: #1378c1;
+
+/************************************
+ * COLORS SVG
+ */
+$c-svg-black: 000000;
+$c-svg-white: ffffff;
+$c-svg-main-color: 009 fe3;
+$c-svg-black-blue: 2 d2e33;
+$c-svg-black-blue: 2 d2e33;
+$c-svg-black-blue-2: 454546;
+$c-svg-gray: 9 f9f9f;
+
+/************************************
+ * TRANSITION
+ */
+
+$transition: all 0.25s linear;
+
+/************************************
+ * CUSTOM
+ */
+
+$padLeft: 100px;
