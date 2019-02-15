@@ -65,7 +65,16 @@ module.exports = {
         assets + 'js/vendor/jquery.lazy.js',
         assets + 'js/vendor/aos.js',
         node_modules + 'toastr/build/toastr.min.js',
-        node_modules + 'intersection-observer/intersection-observer.js'
+        node_modules + 'intersection-observer/intersection-observer.js',
+        assets + 'js/vendor/alert.js',
+        assets + 'js/vendor/button.js',
+        assets + 'js/vendor/carousel.js',
+        assets + 'js/vendor/collapse.js',
+        assets + 'js/vendor/dropdown.js',
+        assets + 'js/vendor/modal.js',
+        assets + 'js/vendor/popover.js',
+        assets + 'js/vendor/scrollspy.js',
+        assets + 'js/vendor/tab.js',
       ]
     },
     // copyJS: {

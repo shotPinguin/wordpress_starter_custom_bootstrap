@@ -17,16 +17,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="wp-config.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-config.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="966">
-              <caret line="58" column="27" lean-forward="false" selection-start-line="58" selection-start-column="27" selection-end-line="58" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="_global.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sources/custom_theme/assets/scss/layouts/_global.scss">
           <provider selected="true" editor-type-id="text-editor">
@@ -80,8 +70,8 @@
       <file leaf-file-name="gulpconfig.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sources/custom_theme/gulpconfig.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="11" column="50" lean-forward="false" selection-start-line="11" selection-start-column="50" selection-end-line="11" selection-end-column="50" />
+            <state relative-caret-position="217">
+              <caret line="68" column="32" lean-forward="true" selection-start-line="68" selection-start-column="32" selection-end-line="68" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -90,8 +80,18 @@
       <file leaf-file-name="functions.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/custom_theme/functions.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="736">
-              <caret line="169" column="1" lean-forward="false" selection-start-line="169" selection-start-column="1" selection-end-line="169" selection-end-column="1" />
+            <state relative-caret-position="424">
+              <caret line="134" column="80" lean-forward="true" selection-start-line="134" selection-start-column="80" selection-end-line="134" selection-end-column="80" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="alert.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sources/custom_theme/assets/js/vendor/alert.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-69">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -101,7 +101,7 @@
         <entry file="file://$PROJECT_DIR$/sources/custom_theme/assets/scss/vendor/bootstrap/_variables.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="392">
-              <caret line="169" column="25" lean-forward="true" selection-start-line="169" selection-start-column="25" selection-end-line="169" selection-end-column="25" />
+              <caret line="169" column="25" lean-forward="false" selection-start-line="169" selection-start-column="25" selection-end-line="169" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -129,6 +129,8 @@
       <find>plugins.css</find>
       <find>vendor/bootstrap</find>
       <find>read</find>
+      <find>pluggi</find>
+      <find>plugins</find>
     </findStrings>
     <dirStrings>
       <dir>C:\wamp\www\wordpress_starter_custom_bootstrap\wp-content\themes\custom_theme</dir>
@@ -147,8 +149,8 @@
         <option value="$PROJECT_DIR$/sources/custom_theme/assets/scss/layouts/_global.scss" />
         <option value="$PROJECT_DIR$/sources/custom_theme/assets/js/core.js" />
         <option value="$PROJECT_DIR$/sources/custom_theme/assets/scss/_init.scss" />
-        <option value="$PROJECT_DIR$/sources/custom_theme/gulpconfig.js" />
         <option value="$PROJECT_DIR$/sources/custom_theme/assets/scss/vendor/bootstrap/_variables.scss" />
+        <option value="$PROJECT_DIR$/sources/custom_theme/gulpconfig.js" />
         <option value="$PROJECT_DIR$/wp-content/themes/custom_theme/functions.php" />
       </list>
     </option>
@@ -171,8 +173,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+    <option name="x" value="-28" />
+    <option name="y" value="24" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
@@ -217,6 +219,23 @@
               <item name="sources" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="custom_theme" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="wordpress_starter_custom_bootstrap" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wordpress_starter_custom_bootstrap" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="sources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="custom_theme" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="wordpress_starter_custom_bootstrap" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wordpress_starter_custom_bootstrap" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="sources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="custom_theme" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="wordpress_starter_custom_bootstrap" type="b2602c69:ProjectViewProjectNode" />
@@ -279,15 +298,15 @@
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\wamp\www\wordpress_starter_custom\sources" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\wamp\www\wordpress_starter_custom_bootstrap\sources\custom_theme\assets\js\vendor" />
       <recent name="C:\wamp\www\wordpress_starter_custom_bootstrap\wp-content\themes" />
       <recent name="C:\wamp\www\wordpress_starter_custom_bootstrap\sources\custom_theme\assets\scss\vendor" />
       <recent name="C:\wamp\www\wordpress_starter_custom_bootstrap\sources\custom_theme\assets\svg\sprites" />
       <recent name="C:\wamp\www\wordpress_starter_custom_bootstrap\sources\custom_theme\assets\svg\fonts" />
-      <recent name="C:\wamp\www\wordpress_starter_custom_bootstrap\wp-content\plugins" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\wamp\www\wordpress_starter_custom\sources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -315,12 +334,12 @@
       <workItem from="1550152338221" duration="2612000" />
       <workItem from="1550155089491" duration="7873000" />
       <workItem from="1550227289758" duration="1719000" />
-      <workItem from="1550229497549" duration="29000" />
+      <workItem from="1550229497549" duration="1461000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12233000" />
+    <option name="totallyTimeSpent" value="13665000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -334,7 +353,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32790446" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32790446" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -377,14 +396,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/custom_theme/js/customizer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sources/custom_theme/assets/scss/vendor/bootstrap/_variables.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3887">
@@ -691,26 +702,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sources/custom_theme/gulpconfig.js">
+    <entry file="file://$PROJECT_DIR$/sources/custom_theme/assets/scss/vendor/bootstrap/_variables.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="50" lean-forward="false" selection-start-line="11" selection-start-column="50" selection-end-line="11" selection-end-column="50" />
+        <state relative-caret-position="392">
+          <caret line="169" column="25" lean-forward="false" selection-start-line="169" selection-start-column="25" selection-end-line="169" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sources/custom_theme/assets/scss/vendor/bootstrap/_variables.scss">
+    <entry file="file://$PROJECT_DIR$/sources/custom_theme/assets/js/vendor/alert.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="169" column="25" lean-forward="true" selection-start-line="169" selection-start-column="25" selection-end-line="169" selection-end-column="25" />
+        <state relative-caret-position="-69">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sources/custom_theme/gulpconfig.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="68" column="32" lean-forward="true" selection-start-line="68" selection-start-column="32" selection-end-line="68" selection-end-column="32" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/custom_theme/functions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="736">
-          <caret line="169" column="1" lean-forward="false" selection-start-line="169" selection-start-column="1" selection-end-line="169" selection-end-column="1" />
+        <state relative-caret-position="424">
+          <caret line="134" column="80" lean-forward="true" selection-start-line="134" selection-start-column="80" selection-end-line="134" selection-end-column="80" />
           <folding />
         </state>
       </provider>
