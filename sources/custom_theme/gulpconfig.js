@@ -9,7 +9,7 @@ var project = 'custom_theme',
   // The raw material of your theme: custom scripts, SCSS source files, images, etc.; do not delete this folder!
   assets = 'assets/',
   // Where the project is build
-  build = '../../wp-content/themes/' + project + '/assets/',
+  build = '../../wp-content/themes/' + project + '/',
   // Where node modules are install
   node_modules = '../node_modules/',
   // Plugins are not on npmjs

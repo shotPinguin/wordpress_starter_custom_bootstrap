@@ -4,80 +4,52 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/#search-result
  *
- * @package WP_Bootstrap_4
+ * @package custom_theme
  */
 
-get_header(); ?>
-
-<?php
-	$default_sidebar_position = get_theme_mod( 'default_sidebar_position', 'right' );
+get_header();
 ?>
 
-	<div class="container">
-		<div class="row">
+	<section id="primary" class="content-area">
+		<main id="main" class="site-main">
 
-			<?php if ( $default_sidebar_position === 'no' ) : ?>
-				<div class="col-md-12 wp-bp-content-width">
-			<?php else : ?>
-				<div class="col-md-8 wp-bp-content-width">
-			<?php endif; ?>
+		<?php if ( have_posts() ) : ?>
 
-				<section id="primary" class="content-area">
-					<main id="main" class="site-main">
-
+			<header class="page-header">
+				<h1 class="page-title">
 					<?php
-					if ( have_posts() ) : ?>
+					/* translators: %s: search query. */
+					printf( esc_html__( 'Search Results for: %s', 'custom_theme' ), '<span>' . get_search_query() . '</span>' );
+					?>
+				</h1>
+			</header><!-- .page-header -->
 
-						<header class="page-header mt-3r">
-							<h1 class="page-title"><?php
-								/* translators: %s: search query. */
-								printf( esc_html__( 'Search Results for: %s', 'wp-bootstrap-4' ), '<span>' . get_search_query() . '</span>' );
-							?></h1>
-						</header><!-- .page-header -->
+			<?php
+			/* Start the Loop */
+			while ( have_posts() ) :
+				the_post();
 
-						<?php
-						/* Start the Loop */
-						while ( have_posts() ) : the_post();
+				/**
+				 * Run the loop for the search to output the results.
+				 * If you want to overload this in a child theme then include a file
+				 * called content-search.php and that will be used instead.
+				 */
+				get_template_part( 'template-parts/content', 'search' );
 
-							/**
-							 * Run the loop for the search to output the results.
-							 * If you want to overload this in a child theme then include a file
-							 * called content-search.php and that will be used instead.
-							 */
-							get_template_part( 'template-parts/content', 'search' );
+			endwhile;
 
-						endwhile;
+			the_posts_navigation();
 
-						the_posts_navigation( array(
-							'next_text'         => esc_html__( 'Newer Posts', 'wp-bootstrap-4' ),
-							'prev_text'         => esc_html__( 'Older Posts', 'wp-bootstrap-4' ),
-						) );
+		else :
 
-					else :
+			get_template_part( 'template-parts/content', 'none' );
 
-						get_template_part( 'template-parts/content', 'none' );
+		endif;
+		?>
 
-					endif; ?>
-
-					</main><!-- #main -->
-				</section><!-- #primary -->
-			</div>
-			<!-- /.col-md-8 -->
-
-			<?php if ( $default_sidebar_position != 'no' ) : ?>
-				<?php if ( $default_sidebar_position === 'right' ) : ?>
-					<div class="col-md-4 wp-bp-sidebar-width">
-				<?php elseif ( $default_sidebar_position === 'left' ) : ?>
-					<div class="col-md-4 order-md-first wp-bp-sidebar-width">
-				<?php endif; ?>
-						<?php get_sidebar(); ?>
-					</div>
-					<!-- /.col-md-4 -->
-			<?php endif; ?>
-		</div>
-		<!-- /.row -->
-	</div>
-	<!-- /.container -->
+		</main><!-- #main -->
+	</section><!-- #primary -->
 
 <?php
+get_sidebar();
 get_footer();

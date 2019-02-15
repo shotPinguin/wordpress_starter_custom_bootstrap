@@ -8,6 +8,9 @@
 @import "vendor/owl-carousel"; // node_modules
 @import "vendor/toastr"; // node_modules
 
+// Include all of Bootstrap
+@import "vendor/bootstrap/bootstrap";
+
 @import "configs/sprites-svg";
 @import "configs/mixins";
 @import "configs/sprites";

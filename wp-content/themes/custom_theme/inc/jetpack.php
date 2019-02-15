@@ -4,7 +4,7 @@
  *
  * @link https://jetpack.com/
  *
- * @package WP_Bootstrap_4
+ * @package custom_theme
  */
 
 /**
@@ -14,11 +14,11 @@
  * See: https://jetpack.com/support/responsive-videos/
  * See: https://jetpack.com/support/content-options/
  */
-function wp_bootstrap_4_jetpack_setup() {
+function custom_theme_jetpack_setup() {
 	// Add theme support for Infinite Scroll.
 	add_theme_support( 'infinite-scroll', array(
 		'container' => 'main',
-		'render'    => 'wp_bootstrap_4_infinite_scroll_render',
+		'render'    => 'custom_theme_infinite_scroll_render',
 		'footer'    => 'page',
 	) );
 
@@ -28,7 +28,7 @@ function wp_bootstrap_4_jetpack_setup() {
 	// Add theme support for Content Options.
 	add_theme_support( 'jetpack-content-options', array(
 		'post-details'    => array(
-			'stylesheet' => 'wp-bootstrap-4-style',
+			'stylesheet' => 'custom_theme-style',
 			'date'       => '.posted-on',
 			'categories' => '.cat-links',
 			'tags'       => '.tags-links',
@@ -42,18 +42,18 @@ function wp_bootstrap_4_jetpack_setup() {
 		),
 	) );
 }
-add_action( 'after_setup_theme', 'wp_bootstrap_4_jetpack_setup' );
+add_action( 'after_setup_theme', 'custom_theme_jetpack_setup' );
 
 /**
  * Custom render function for Infinite Scroll.
  */
-function wp_bootstrap_4_infinite_scroll_render() {
+function custom_theme_infinite_scroll_render() {
 	while ( have_posts() ) {
 		the_post();
 		if ( is_search() ) :
 			get_template_part( 'template-parts/content', 'search' );
 		else :
-			get_template_part( 'template-parts/content', get_post_format() );
+			get_template_part( 'template-parts/content', get_post_type() );
 		endif;
 	}
 }
