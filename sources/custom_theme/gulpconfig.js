@@ -75,6 +75,10 @@ module.exports = {
         assets + 'js/vendor/popover.js',
         assets + 'js/vendor/scrollspy.js',
         assets + 'js/vendor/tab.js',
+        assets + 'js/vendor/toast.js',
+        assets + 'js/vendor/tooltip.js',
+        assets + 'js/vendor/utils.js',
+        assets + 'js/vendor/index.js'
       ]
     },
     // copyJS: {
