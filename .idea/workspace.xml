@@ -37,26 +37,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="core.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sources/custom_theme/assets/js/core.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6900">
-              <caret line="300" column="0" lean-forward="false" selection-start-line="300" selection-start-column="0" selection-end-line="300" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sources/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="575">
-              <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="_init.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sources/custom_theme/assets/scss/_init.scss">
           <provider selected="true" editor-type-id="text-editor">
@@ -67,11 +47,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="gulpconfig.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="gulpconfig.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sources/custom_theme/gulpconfig.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="448">
-              <caret line="81" column="39" lean-forward="false" selection-start-line="81" selection-start-column="39" selection-end-line="81" selection-end-column="39" />
+            <state relative-caret-position="287">
+              <caret line="74" column="43" lean-forward="false" selection-start-line="74" selection-start-column="43" selection-end-line="74" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_contact.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sources/custom_theme/assets/scss/partials/_contact.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_contact-form.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sources/custom_theme/assets/scss/vendor/_contact-form.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="26" column="28" lean-forward="true" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -80,7 +80,7 @@
       <file leaf-file-name="functions.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/custom_theme/functions.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="424">
+            <state relative-caret-position="2944">
               <caret line="134" column="80" lean-forward="false" selection-start-line="134" selection-start-column="80" selection-end-line="134" selection-end-column="80" />
               <folding />
             </state>
@@ -90,7 +90,7 @@
       <file leaf-file-name="alert.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sources/custom_theme/assets/js/vendor/alert.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-69">
+            <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
@@ -100,7 +100,7 @@
       <file leaf-file-name="_variables.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sources/custom_theme/assets/scss/vendor/bootstrap/_variables.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="392">
+            <state relative-caret-position="3887">
               <caret line="169" column="25" lean-forward="false" selection-start-line="169" selection-start-column="25" selection-end-line="169" selection-end-column="25" />
               <folding />
             </state>
@@ -152,6 +152,7 @@
         <option value="$PROJECT_DIR$/sources/custom_theme/assets/scss/vendor/bootstrap/_variables.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/custom_theme/functions.php" />
         <option value="$PROJECT_DIR$/sources/custom_theme/gulpconfig.js" />
+        <option value="$PROJECT_DIR$/sources/custom_theme/assets/scss/vendor/_contact-form.scss" />
       </list>
     </option>
   </component>
@@ -194,7 +195,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -226,67 +226,14 @@
               <item name="sources" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="custom_theme" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="wordpress_starter_custom_bootstrap" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wordpress_starter_custom_bootstrap" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="sources" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="custom_theme" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="wordpress_starter_custom_bootstrap" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wordpress_starter_custom_bootstrap" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="sources" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="custom_theme" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="scss" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="wordpress_starter_custom_bootstrap" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wordpress_starter_custom_bootstrap" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="sources" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="custom_theme" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="scss" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="wordpress_starter_custom_bootstrap" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wordpress_starter_custom_bootstrap" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="sources" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="custom_theme" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="scss" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="bootstrap" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="wordpress_starter_custom_bootstrap" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wordpress_starter_custom_bootstrap" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="wp-content" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="wordpress_starter_custom_bootstrap" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wordpress_starter_custom_bootstrap" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="wp-content" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="wordpress_starter_custom_bootstrap" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wordpress_starter_custom_bootstrap" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="wp-content" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="custom_theme" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -334,19 +281,20 @@
       <workItem from="1550152338221" duration="2612000" />
       <workItem from="1550155089491" duration="7873000" />
       <workItem from="1550227289758" duration="1719000" />
-      <workItem from="1550229497549" duration="2538000" />
+      <workItem from="1550229497549" duration="3164000" />
+      <workItem from="1551169175237" duration="191000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14742000" />
+    <option name="totallyTimeSpent" value="15559000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25746268" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26012793" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -396,27 +344,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/sources/custom_theme/assets/scss/vendor/bootstrap/_variables.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3887">
-          <caret line="169" column="25" lean-forward="true" selection-start-line="169" selection-start-column="25" selection-end-line="169" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/autoptimize/config/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/wp-sitemap-page/images/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -597,7 +528,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -605,7 +535,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -704,7 +633,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sources/custom_theme/assets/scss/vendor/bootstrap/_variables.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
+        <state relative-caret-position="3887">
           <caret line="169" column="25" lean-forward="false" selection-start-line="169" selection-start-column="25" selection-end-line="169" selection-end-column="25" />
           <folding />
         </state>
@@ -712,7 +641,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sources/custom_theme/assets/js/vendor/alert.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-69">
+        <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
@@ -720,7 +649,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/custom_theme/functions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="424">
+        <state relative-caret-position="2944">
           <caret line="134" column="80" lean-forward="false" selection-start-line="134" selection-start-column="80" selection-end-line="134" selection-end-column="80" />
           <folding />
         </state>
@@ -728,8 +657,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sources/custom_theme/gulpconfig.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="81" column="39" lean-forward="false" selection-start-line="81" selection-start-column="39" selection-end-line="81" selection-end-column="39" />
+        <state relative-caret-position="287">
+          <caret line="74" column="43" lean-forward="false" selection-start-line="74" selection-start-column="43" selection-end-line="74" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sources/custom_theme/assets/scss/partials/_contact.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sources/custom_theme/assets/scss/vendor/_contact-form.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="26" column="28" lean-forward="true" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
           <folding />
         </state>
       </provider>
